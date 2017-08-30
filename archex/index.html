@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Archex</title>
+	
+	<!-- Jquery and Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Compiled Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- CSS and JS -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/libs.min.js"></script>
+</head>
+
+<body>
+
+	<div class="header-wrapper navbar-fixed-top">
+	<div class="container header_container">
+		<div class="header ">
+			<div class="row">
+				<h2 class="header__logo" id="header__logo"><a href="#">Archex</a></h2>
+				<ul class="header__nav_menu">
+					<li class="header__nav_elem header__nav_elem-active"><a href="#">Home</a></li>
+					<li class="header__nav_elem"><a href="#">About</a>
+						<ul class="header__submenu">
+							<li class="header__nav_subelem"><a href="#">testiomonials</a></li>
+							<li class="header__nav_subelem"><a href="#">archives</a></li>
+							<li class="header__nav_subelem"><a href="#">faqs</a></li>
+						</ul>
+					</li>
+					<li class="header__nav_elem"><a href="#">Folio</a></li>
+					<li class="header__nav_elem"><a href="#">Services</a></li>
+					<li class="header__nav_elem"><a href="#">Blog</a></li>
+					<li class="header__nav_elem"><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+		<!-- <ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+ -->
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+
+			<div class="item active">
+				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd1" style="width:100%;">
+					<div class="container carousel__textContainer">
+						<div class="row">
+							<h1 class="carousel__h1">Perfect</h1>
+							<h3 class="carousel__h3">combination of colors, shapes, and lines - it is all about design.</h3>
+							<a class="carousel__learnMore" href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd2" style="width:100%;">
+					<div class="container carousel__textContainer">
+						<div class="row">
+							<h1 class="carousel__h1">Ideal</h1>
+							<h3 class="carousel__h3">architecture solutions for future generations.</h3>
+							<a class="carousel__learnMore" href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd3" style="width:100%;">
+					<div class="container carousel__textContainer">
+						<div class="row">
+							<h1 class="carousel__h1">MODERN</h1>
+							<h3 class="carousel__h3">&amp unique designs of any complexity</h3>
+							<a class="carousel__learnMore" href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+		</a>
+	</div>
+	
+
+	<!-- Go to top button -->
+	<button onclick="topFunction()" id="totopBtn" title="Go to top"></button>
+	<!-- Contact us button -->
+	<button onclcik="contactusFunction()" id="contactBtn" title="Contact us">Contact us!</button>
+	
+	
+	<!-- Advantages -->
+	<div class="container">
+		<div class="row">
+			<div class="advantage col-md-4">
+				<div class="advantage__wrapper">
+					<h2 class="advantage__number">1</h2>
+					<h2 class="advantage__header">Modern</h2>
+					<h4 class="advantage__textHeader">Vestibulum iaculis laci</h4>
+					<p class="advantage__text">Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod consequat ante. Lorem ipsum dolsit met consetuer adipiscing elit. elle ntesque sed dolor. Aliquam congue fermsl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquetulla vene natis. In pede mi aliquet sit amet euismod in.</p>
+					<a href="#" class="advantage__moreBtn">More</a>
+				</div>
+			</div>
+
+			<div class="advantage col-md-4">
+				<div class="advantage__wrapper">
+					<h2 class="advantage__number">2</h2>
+					<h2 class="advantage__header">Safe</h2>
+					<h4 class="advantage__textHeader">Proin dictum element</h4>
+					<p class="advantage__text">Fusce euismod consequat ante. Lorem ipsum dolor sit met consectetuer adipiscing elit ellen tesque sed dolor. Aliquam congue fermentum nisl. Mauriccumsan nulla vel diam. Sed in lacus ut enim adipis cing aliquetla venenatis In pe iq. Aliquam dapibus tincidunt metus. Praesent justo dolor lobortis quis lobo.</p>
+					<a href="#" class="advantage__moreBtn">More</a>
+				</div>
+			</div>
+
+			<div class="advantage col-md-4">
+				<div class="advantage__wrapper">
+					<h2 class="advantage__number">3</h2>
+					<h2 class="advantage__header">Industrial</h2>
+					<h4 class="advantage__textHeader">Fusce euismod cons</h4>
+					<p class="advantage__text">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquvene natis. In pede mi ali quet sit amet euismod in auctor ut ligla. Aliquam dapibus tincidunt metus. Praesent justo dolor lobortis quis lobortis dig. Vestibulum sed ante. Donec sagittis euismo dpured ut perspiciatis und. Omnis iste natus errouptatem.</p>
+					<a href="#" class="advantage__moreBtn">More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Examples -->
+	<div class="container-fluid">
+	<div class="row">
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example1.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example2.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example3.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+	</div>
+	</div>
+
+	<div class="container-fluid">
+	<div class="row">
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example4.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example5.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+
+		<a href="#">
+		<div class="example col-md-4">
+			<img class="example__img" src="img/example6.jpg" alt="img">
+			<p class="example__text">
+				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
+				Interger rutrum ante eu
+			</p>
+		</div>
+		</a>
+	</div>
+	</div>
+	
+	<!-- Big Menu -->
+	<div class="bigMenu-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="bigMenu col-md-3">
+				<h2 class="bigMenu__header">Phasrta</h2>
+				<img src="img/bigMenu_icon1.png" alt="image" class="bigMenu__img">
+				<h4 class="bigMenu__textHeader">Vestibulum iaculis laci</h4>
+				<p class="bigMenu__text">Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod cons equat ante. Lorem ipsum dme consectetuer adipiscin.</p>
+				<a href="#" class="bigMenu__button">More</a>
+			</div>
+
+			<div class="bigMenu col-md-3">
+				<h2 class="bigMenu__header">Loremit</h2>
+				<img src="img/bigMenu_icon2.png" alt="image" class="bigMenu__img">
+				<h4 class="bigMenu__textHeader">Proin dictum element</h4>
+				<p class="bigMenu__text">Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod cons equat ante. Lorem ipsum dme consectetuer adipiscin.</p>
+				<a href="#" class="bigMenu__button">More</a>
+			</div>
+
+			<div class="bigMenu col-md-3">
+				<h2 class="bigMenu__header">Dolor sit</h2>
+				<img src="img/bigMenu_icon3.png" alt="image" class="bigMenu__img">
+				<h4 class="bigMenu__textHeader">Fusce euismod consequ</h4>
+				<p class="bigMenu__text">Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod cons equat ante. Lorem ipsum dme consectetuer adipiscin.</p>
+				<a href="#" class="bigMenu__button">More</a>
+			</div>
+
+			<div class="bigMenu col-md-3">
+				<h2 class="bigMenu__header">Praesen</h2>
+				<img src="img/bigMenu_icon4.png" alt="image" class="bigMenu__img">
+				<h4 class="bigMenu__textHeader">Proin dictum element</h4>
+				<p class="bigMenu__text">Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod cons equat ante. Lorem ipsum dme consectetuer adipiscin.</p>
+				<a href="#" class="bigMenu__button">More</a>
+			</div>
+
+		</div>
+	</div>
+	</div>
+
+	<!-- From Blog -->
+	<div class="fromBlog-wrapper">
+		<div class="container text-center">
+		<div class="row">
+			<h2 class="fromBlog__header">From the blog</h2>
+		</div>
+		<div class="row">
+			<h4 class="fromBlog__textHeader"><a href="#">Duisac turpiteger rutr</a></h4>
+		</div>
+		<div class="row">
+			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+		</div>
+		<div class="row">
+			<hr class="fromBlog__hr">
+		</div>
+		<div class="row">
+			<h4 class="fromBlog__textHeader"><a href="#">Estilum libero nisl porta</a></h4>
+		</div>
+		<div class="row">
+			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+		</div>
+		<div class="row">
+			<hr class="fromBlog__hr">
+		</div>
+		<div class="row">
+			<h4 class="fromBlog__textHeader"><a href="#">Porta vel scelerisque</a></h4>
+		</div>
+		<div class="row">
+			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+		</div>
+			<a href="#" class="fromBlog__button">More</a>
+		</div>
+	</div>
+	
+	<!-- Contacts -->
+	<div class="container">
+		<div class="row">
+			<h2>Contacts</h2>
+		</div>
+		<div class="row">
+			<div class="contacts col-md-3">
+				<h2 class="contacts__header text-center">1</h2>
+				<p class="contacts__text">9870 St Vincent Place, Glasgow, DC 45 Fr 45. Freephone: +1 800 559 6580</p>
+			</div>
+
+			<div class="contacts col-md-3">
+				<h2 class="contacts__header text-center">2</h2>
+				<p class="contacts__text">9863 - 9867 Mill Road, Cambridge, MG09 99HT Freephone:  +1 800 559 6580</p>
+			</div>
+
+			<div class="contacts col-md-3">
+				<h2 class="contacts__header text-center">3</h2>
+				<p class="contacts__text">8901 Marmora Road, Glasgow, D04 89GR. Freephone:  +1 800 559 6580</p>
+			</div>
+
+			<div class="contacts col-md-3">
+				<h2 class="contacts__header text-center">4</h2>
+				<p class="contacts__text">9378 St Vincent Place, Amsterdam, MG09 99HT Freephone:  +1 800 559 6580</p>
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- Footer -->
+	<div class="container">
+		<footer>
+			<div class="row">
+				<div class="social text-center">
+					<a class="social__google" href="#"><img src="#" alt="g+"></a>
+					<a class="social__twitter" href="#"><img src="#" alt="tw"></a> 
+					<a class="social__facebook" href="#"><img src="#" alt="fb"></a>  
+				</div>
+			</div>
+			<div class="row">
+				<div class="footerText text-center">
+					<a href="#" class="footerText__link">Archex</a> © 2017 . <a href="#" class="footerText__link">Privacy policy</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Google Map -->
+	<div id="map"></div>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdU2zDkMiXX2NssKWkz0ojJ3j6Xn-0kFE&callback=initMap">
+	</script>
+
+</body>
+</html>

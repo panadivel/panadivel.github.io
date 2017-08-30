@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+#contactBtn {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  z-index: 99;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: url(../img/email-envelope-small.png) no-repeat #5BA0D0;
+  background-position: 8px 6px;
+  line-height: 52px;
+  padding-left: 32px;
+  color: #fff;
+  -webkit-border-radius: 8px 8px 0 0;
+          border-radius: 8px 8px 0 0;
+  font-weight: 600; }
+
+#totopBtn {
+  display: none;
+  position: fixed;
+  height: 35px;
+  width: 35px;
+  border: none;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  background: url(../img/Button_Up.png) no-repeat center center;
+  -webkit-border-radius: 30px;
+          border-radius: 30px; }
+
+#totopBtn:hover, #totopBtn:active {
+  border: 2px solid #27B8D1;
+  outline: none; }
+
+#map {
+  width: 100%;
+  height: 300px; }
+
+h1, h2, h3, h4 {
+  font-weight: 600; }
+
+h1 {
+  font-size: 230px; }
+
+.header__logo {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 30px;
+  float: left;
+  margin-top: 48px; }
+  .header__logo a {
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.header__nav_menu {
+  float: right;
+  list-style-type: none; }
+
+.header__logo, .carousel__h1, .carousel__learnMore {
+  text-transform: uppercase; }
+
+.header__nav_elem {
+  display: inline-block;
+  position: relative; }
+
+.header__nav_elem a {
+  display: block;
+  height: 136px;
+  padding: 60px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.header__nav_elem > a:hover {
+  background-color: #27B8D1; }
+
+.header__nav_elem-active {
+  background-color: #27B8D1; }
+
+.header__submenu {
+  list-style-type: none;
+  position: absolute;
+  top: 140px;
+  left: -12px;
+  display: none; }
+
+.header__nav_subelem a {
+  display: block;
+  height: 38px;
+  padding: 9px;
+  text-align: center;
+  background-color: #27B8D1; }
+
+.header__nav_subelem a:hover {
+  color: #B3D6E9; }
+
+.carousel__imgcontainer {
+  background: url(../img/bgrd1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 1080px; }
+
+.carousel__imgcontainer-bgrd2 {
+  background: url(../img/bgrd2.jpg) no-repeat center center; }
+
+.carousel__imgcontainer-bgrd3 {
+  background: url(../img/bgrd3.jpg) no-repeat center center; }
+
+.carousel__textContainer {
+  position: relative;
+  top: 300px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.carousel-control {
+  width: 40px; }
+
+.carousel__learnMore {
+  display: block;
+  width: 200px;
+  height: 76px;
+  background-color: #27B8D1;
+  color: #fff;
+  line-height: 76px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.carousel__learnMore:hover {
+  color: #000;
+  background-color: #FFF;
+  text-shadow: none; }
+
+.advantage {
+  margin: 140px 0;
+  padding: 15px;
+  color: #FFF; }
+
+.advantage__wrapper {
+  background-color: #27B8D1;
+  padding: 25px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.advantage__wrapper:hover {
+  background-color: #2B2A28; }
+
+.advantage__number {
+  margin: 50px 0;
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-color: #FFF;
+  color: #27B8D1;
+  text-align: center;
+  line-height: 120px;
+  -webkit-border-radius: 120px;
+          border-radius: 120px; }
+
+.advantage__header {
+  margin-bottom: 40px; }
+
+.advantage__text {
+  line-height: 26px; }
+
+.advantage__moreBtn {
+  display: block;
+  height: 50px;
+  width: 130px;
+  background-color: #FFF;
+  text-align: center;
+  line-height: 50px;
+  color: #27B8D1;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin: 50px 0 90px 0; }
+
+.advantage__moreBtn:hover {
+  background-color: #27B8D1;
+  color: #fff; }
+
+.example {
+  padding: 0;
+  position: relative;
+  overflow: hidden; }
+
+.example:hover .example__text {
+  background-color: #2B2A28;
+  color: #fff; }
+
+.example:hover .example__text-bold {
+  color: #fff; }
+
+.example__img {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  max-width: 100%;
+    max-width-height: auto; }
+
+.example:hover .example__img {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3); }
+
+.example__text {
+  padding-top: 11%;
+  color: #717478;
+  background-color: #FFF;
+  width: 56%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.example__text-bold {
+  color: #000;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.bigMenu-wrapper {
+  background-color: #27B8D1;
+  color: #fff; }
+
+.bigMenu__header {
+  margin-top: 200px; }
+
+.bigMenu__img {
+  margin: 70px 0 55px 0;
+  width: 120px;
+  height: 120px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s; }
+
+.bigMenu__img:hover {
+  -webkit-transform: rotateY(360deg) scale(0.8);
+          transform: rotateY(360deg) scale(0.8); }
+
+.bigMenu__textHeader {
+  margin-bottom: 20px; }
+
+.bigMenu__text {
+  line-height: 26px;
+  min-height: 160px; }
+
+.bigMenu__button {
+  display: block;
+  height: 50px;
+  width: 130px;
+  background-color: #FFF;
+  text-align: center;
+  line-height: 50px;
+  color: #27B8D1;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 260px; }
+
+.bigMenu__button:hover {
+  background-color: #2B2A28;
+  color: #27B8D1; }
+
+.fromBlog-wrapper {
+  background: url(../img/tobias-van-schneider-230172.jpg) no-repeat 50% 0%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #fff; }
+
+.fromBlog__header {
+  margin: 150px 0 60px 0; }
+
+.fromBlog__textHeader > a {
+  color: white;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.fromBlog__textHeader > a:hover {
+  color: #27B8D1; }
+
+.fromBlog__hr {
+  display: block;
+  width: 340px;
+  height: 1px;
+  background-color: #FFF;
+  margin: 30px auto; }
+
+.fromBlog__button {
+  display: block;
+  height: 50px;
+  width: 130px;
+  background-color: #27B8D1;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin: 70px auto 240px; }
+
+.fromBlog__button:hover {
+  background-color: #fff;
+  color: #000; }
