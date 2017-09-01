@@ -22,6 +22,10 @@ a:hover {
           border-radius: 8px 8px 0 0;
   font-weight: 600; }
 
+#contactBtn:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75); }
+
 #totopBtn {
   display: none;
   position: fixed;
@@ -56,14 +60,16 @@ h1 {
   transition: 0.5s;
   font-size: 30px;
   float: left;
-  margin-top: 48px; }
+  margin-top: 48px;
+  margin-left: 15px; }
   .header__logo a {
     color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
 .header__nav_menu {
   float: right;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-right: 15px; }
 
 .header__logo, .carousel__h1, .carousel__learnMore {
   text-transform: uppercase; }
@@ -137,6 +143,7 @@ h1 {
   line-height: 76px;
   text-align: center;
   margin-top: 30px;
+  margin-left: 15px;
   font-weight: 600;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -290,7 +297,7 @@ h1 {
   color: #27B8D1; }
 
 .fromBlog-wrapper {
-  background: url(../img/tobias-van-schneider-230172.jpg) no-repeat 50% 0%;
+  background: url(../img/fromBlog.jpg) no-repeat 50% 0%;
   -webkit-background-size: cover;
           background-size: cover;
   color: #fff; }
@@ -332,3 +339,140 @@ h1 {
 .fromBlog__button:hover {
   background-color: #fff;
   color: #000; }
+
+.contacts__mainHeader {
+  margin: 110px auto 80px; }
+
+.contacts__header {
+  display: block;
+  height: 120px;
+  width: 120px;
+  color: #fff;
+  background-color: #27B8D1;
+  -webkit-border-radius: 120px;
+          border-radius: 120px;
+  line-height: 120px;
+  text-align: center; }
+
+.contacts__text {
+  color: #919497;
+  margin: 30px 0 70px;
+  line-height: 28px; }
+
+.social__icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin: 0 15px 40px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.social__icon-google {
+  background: url(../img/Google.png) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.social__icon-google:hover {
+  background-image: url(../img/Google-hover.png);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.social__icon-twitter {
+  background: url(../img/Twitter.png) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.social__icon-twitter:hover {
+  background-image: url(../img/Twitter-hover.png);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.social__icon-facebook {
+  background: url(../img/Facebook.png) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.social__icon-facebook:hover {
+  background-image: url(../img/Facebook-hover.png);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.footerText {
+  font-size: 0.8em;
+  color: #919497;
+  text-transform: uppercase;
+  margin-bottom: 80px; }
+
+.footerText__link {
+  color: #919497;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.footerText__link:hover {
+  color: #27B8D1; }
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 10em; }
+  .carousel__imgcontainer {
+    height: 700px; }
+  .example__text {
+    padding-top: 10%; } }
+
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 2.5em; }
+  .example__text {
+    padding-top: 11%;
+    width: 80%;
+    height: 50%;
+    top: 25%;
+    left: 10%; } }
+
+@media screen and (max-width: 768px) {
+  .carousel__imgcontainer {
+    height: 600px; }
+  .header__nav_menu {
+    display: none; }
+  .carousel__textContainer {
+    top: 230px; }
+  h1 {
+    font-size: 8em; }
+  h3 {
+    font-size: 1.5em; }
+  .bigMenu__header {
+    text-align: center; }
+  .bigMenu__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .bigMenu__textHeader {
+    text-align: center; }
+  .bigMenu__text {
+    text-align: center; }
+  .bigMenu__button, .contacts__header {
+    margin-left: auto;
+    margin-right: auto; }
+  .contacts__text {
+    text-align: center; } }
+
+@media screen and (max-width: 580px) {
+  .carousel__imgcontainer {
+    height: 500px; }
+  .carousel__textContainer {
+    top: 160px; }
+  h1 {
+    font-size: 5em; }
+  h3 {
+    font-size: 1.4em; } }
+
+@media screen and (max-width: 480px) {
+  .col-xxs {
+    width: 100%; }
+  .example__text {
+    padding-top: 13%; } }

@@ -2,7 +2,11 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Archex</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	
 	<!-- Jquery and Bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -19,8 +23,7 @@
 <body>
 
 	<div class="header-wrapper navbar-fixed-top">
-	<div class="container header_container">
-		<div class="header ">
+	<div class="container header__container">
 			<div class="row">
 				<h2 class="header__logo" id="header__logo"><a href="#">Archex</a></h2>
 				<ul class="header__nav_menu">
@@ -36,9 +39,8 @@
 					<li class="header__nav_elem"><a href="#">Services</a></li>
 					<li class="header__nav_elem"><a href="#">Blog</a></li>
 					<li class="header__nav_elem"><a href="#">Contacts</a></li>
-				</ul>
+				</ul>	
 			</div>
-		</div>
 	</div>
 	</div>
 
@@ -57,22 +59,22 @@
 			<div class="item active">
 				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd1" style="width:100%;">
 					<div class="container carousel__textContainer">
-						<div class="row">
-							<h1 class="carousel__h1">Perfect</h1>
-							<h3 class="carousel__h3">combination of colors, shapes, and lines - it is all about design.</h3>
-							<a class="carousel__learnMore" href="#">Learn more</a>
-						</div>
+					<div class="row">
+							<h1 class="carousel__h1 col-xs-12">Perfect</h1>
+							<h3 class="carousel__h3 col-xs-12">combination of colors, shapes, and lines - it is all about design.</h3>
+							<a class="carousel__learnMore col-xs-12" href="#">Learn more</a>
+					</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="item">
+			<!-- <div class="item">
 				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd2" style="width:100%;">
 					<div class="container carousel__textContainer">
 						<div class="row">
-							<h1 class="carousel__h1">Ideal</h1>
-							<h3 class="carousel__h3">architecture solutions for future generations.</h3>
-							<a class="carousel__learnMore" href="#">Learn more</a>
+							<h1 class="carousel__h1 col-sm-12">Ideal</h1>
+							<h3 class="carousel__h3 col-sm-12">architecture solutions for future generations.</h3>
+							<a class="carousel__learnMore col-sm-12" href="#">Learn more</a>
 						</div>
 					</div>
 				</div>
@@ -82,12 +84,12 @@
 				<div class="carousel__imgcontainer carousel__imgcontainer-bgrd3" style="width:100%;">
 					<div class="container carousel__textContainer">
 						<div class="row">
-							<h1 class="carousel__h1">MODERN</h1>
-							<h3 class="carousel__h3">&amp unique designs of any complexity</h3>
-							<a class="carousel__learnMore" href="#">Learn more</a>
+							<h1 class="carousel__h1 col-sm-12">MODERN</h1>
+							<h3 class="carousel__h3 col-sm-12">&amp unique designs of any complexity</h3>
+							<a class="carousel__learnMore col-sm-12" href="#">Learn more</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 
@@ -112,7 +114,7 @@
 	<!-- Advantages -->
 	<div class="container">
 		<div class="row">
-			<div class="advantage col-md-4">
+			<div class="advantage col-sm-4">
 				<div class="advantage__wrapper">
 					<h2 class="advantage__number">1</h2>
 					<h2 class="advantage__header">Modern</h2>
@@ -122,7 +124,7 @@
 				</div>
 			</div>
 
-			<div class="advantage col-md-4">
+			<div class="advantage col-sm-4">
 				<div class="advantage__wrapper">
 					<h2 class="advantage__number">2</h2>
 					<h2 class="advantage__header">Safe</h2>
@@ -132,7 +134,7 @@
 				</div>
 			</div>
 
-			<div class="advantage col-md-4">
+			<div class="advantage col-sm-4">
 				<div class="advantage__wrapper">
 					<h2 class="advantage__number">3</h2>
 					<h2 class="advantage__header">Industrial</h2>
@@ -148,7 +150,7 @@
 	<div class="container-fluid">
 	<div class="row">
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example1.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -158,7 +160,7 @@
 		</a>
 
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example2.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -168,7 +170,7 @@
 		</a>
 
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example3.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -176,13 +178,9 @@
 			</p>
 		</div>
 		</a>
-	</div>
-	</div>
 
-	<div class="container-fluid">
-	<div class="row">
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example4.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -192,7 +190,7 @@
 		</a>
 
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example5.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -202,7 +200,7 @@
 		</a>
 
 		<a href="#">
-		<div class="example col-md-4">
+		<div class="example col-xxs col-xs-6 col-sm-4">
 			<img class="example__img" src="img/example6.jpg" alt="img">
 			<p class="example__text">
 				<span class="example__text-bold">Duisac turpiteger rutr</span><br>
@@ -212,12 +210,12 @@
 		</a>
 	</div>
 	</div>
-	
+
 	<!-- Big Menu -->
 	<div class="bigMenu-wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="bigMenu col-md-3">
+			<div class="bigMenu col-sm-3">
 				<h2 class="bigMenu__header">Phasrta</h2>
 				<img src="img/bigMenu_icon1.png" alt="image" class="bigMenu__img">
 				<h4 class="bigMenu__textHeader">Vestibulum iaculis laci</h4>
@@ -225,7 +223,7 @@
 				<a href="#" class="bigMenu__button">More</a>
 			</div>
 
-			<div class="bigMenu col-md-3">
+			<div class="bigMenu col-sm-3">
 				<h2 class="bigMenu__header">Loremit</h2>
 				<img src="img/bigMenu_icon2.png" alt="image" class="bigMenu__img">
 				<h4 class="bigMenu__textHeader">Proin dictum element</h4>
@@ -233,7 +231,7 @@
 				<a href="#" class="bigMenu__button">More</a>
 			</div>
 
-			<div class="bigMenu col-md-3">
+			<div class="bigMenu col-sm-3">
 				<h2 class="bigMenu__header">Dolor sit</h2>
 				<img src="img/bigMenu_icon3.png" alt="image" class="bigMenu__img">
 				<h4 class="bigMenu__textHeader">Fusce euismod consequ</h4>
@@ -241,7 +239,7 @@
 				<a href="#" class="bigMenu__button">More</a>
 			</div>
 
-			<div class="bigMenu col-md-3">
+			<div class="bigMenu col-sm-3">
 				<h2 class="bigMenu__header">Praesen</h2>
 				<img src="img/bigMenu_icon4.png" alt="image" class="bigMenu__img">
 				<h4 class="bigMenu__textHeader">Proin dictum element</h4>
@@ -256,64 +254,65 @@
 	<!-- From Blog -->
 	<div class="fromBlog-wrapper">
 		<div class="container text-center">
-		<div class="row">
-			<h2 class="fromBlog__header">From the blog</h2>
-		</div>
-		<div class="row">
-			<h4 class="fromBlog__textHeader"><a href="#">Duisac turpiteger rutr</a></h4>
-		</div>
-		<div class="row">
-			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
-		</div>
-		<div class="row">
-			<hr class="fromBlog__hr">
-		</div>
-		<div class="row">
-			<h4 class="fromBlog__textHeader"><a href="#">Estilum libero nisl porta</a></h4>
-		</div>
-		<div class="row">
-			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
-		</div>
-		<div class="row">
-			<hr class="fromBlog__hr">
-		</div>
-		<div class="row">
-			<h4 class="fromBlog__textHeader"><a href="#">Porta vel scelerisque</a></h4>
-		</div>
-		<div class="row">
-			<p class="fromBlog__text col-md-8 col-md-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
-		</div>
+			<div class="row">
+				<h2 class="fromBlog__header">From the blog</h2>
+			</div>
+			<div class="row">
+				<h4 class="fromBlog__textHeader"><a href="#">Duisac turpiteger rutr</a></h4>
+			</div>
+			<div class="row">
+				<p class="fromBlog__text col-sm-8 col-sm-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+			</div>
+			<div class="row">
+				<hr class="fromBlog__hr">
+			</div>
+			<div class="row">
+				<h4 class="fromBlog__textHeader"><a href="#">Estilum libero nisl porta</a></h4>
+			</div>
+			<div class="row">
+				<p class="fromBlog__text col-sm-8 col-sm-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+			</div>
+			<div class="row">
+				<hr class="fromBlog__hr">
+			</div>
+			<div class="row">
+				<h4 class="fromBlog__textHeader"><a href="#">Porta vel scelerisque</a></h4>
+			</div>
+			<div class="row">
+				<p class="fromBlog__text col-sm-8 col-sm-offset-2">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie…</p>
+			</div>
 			<a href="#" class="fromBlog__button">More</a>
 		</div>
 	</div>
 	
 	<!-- Contacts -->
+	<div class="contacts-wrapper">
 	<div class="container">
 		<div class="row">
-			<h2>Contacts</h2>
+			<h2 class="contacts__mainHeader text-center">Contacts</h2>
 		</div>
 		<div class="row">
-			<div class="contacts col-md-3">
-				<h2 class="contacts__header text-center">1</h2>
-				<p class="contacts__text">9870 St Vincent Place, Glasgow, DC 45 Fr 45. Freephone: +1 800 559 6580</p>
+			<div class="contacts col-xs-12 col-sm-3">
+				<h2 class="contacts__header">1</h2>
+				<p class="contacts__text">9870 St Vincent Place, <br>Glasgow, DC 45 <br>Freephone: +1 800 559 6580</p>
 			</div>
 
-			<div class="contacts col-md-3">
-				<h2 class="contacts__header text-center">2</h2>
-				<p class="contacts__text">9863 - 9867 Mill Road, Cambridge, MG09 99HT Freephone:  +1 800 559 6580</p>
+			<div class="contacts col-xs-12 col-sm-3">
+				<h2 class="contacts__header">2</h2>
+				<p class="contacts__text">9863 - 9867 Mill Road, <br>Cambridge, MG09 99HT <br>Freephone:  +1 800 559 6580</p>
 			</div>
 
-			<div class="contacts col-md-3">
-				<h2 class="contacts__header text-center">3</h2>
-				<p class="contacts__text">8901 Marmora Road, Glasgow, D04 89GR. Freephone:  +1 800 559 6580</p>
+			<div class="contacts col-xs-12 col-sm-3">
+				<h2 class="contacts__header">3</h2>
+				<p class="contacts__text">8901 Marmora Road, <br>Glasgow, D04 89GR. <br>Freephone:  +1 800 559 6580</p>
 			</div>
 
-			<div class="contacts col-md-3">
-				<h2 class="contacts__header text-center">4</h2>
-				<p class="contacts__text">9378 St Vincent Place, Amsterdam, MG09 99HT Freephone:  +1 800 559 6580</p>
+			<div class="contacts col-xs-12 col-sm-3">
+				<h2 class="contacts__header">4</h2>
+				<p class="contacts__text">9378 St Vincent Place, <br>Amsterdam, MG09 99HT <br>Freephone:  +1 800 559 6580</p>
 			</div>
 		</div>
-
+	</div>
 	</div>
 	
 	<!-- Footer -->
@@ -321,9 +320,9 @@
 		<footer>
 			<div class="row">
 				<div class="social text-center">
-					<a class="social__google" href="#"><img src="#" alt="g+"></a>
-					<a class="social__twitter" href="#"><img src="#" alt="tw"></a> 
-					<a class="social__facebook" href="#"><img src="#" alt="fb"></a>  
+					<a class="social__icon social__icon-google" href="#"></a>
+					<a class="social__icon social__icon-twitter" href="#"></a> 
+					<a class="social__icon social__icon-facebook" href="#"></a>  
 				</div>
 			</div>
 			<div class="row">
