@@ -113,21 +113,6 @@ h1 {
 .header__nav_subelem a:hover {
   color: #B3D6E9; }
 
-.header__mob_nav_menu {
-  display: none;
-  position: absolute;
-  top: 110px;
-  width: -webkit-calc(100% - 30px);
-  width: calc(100% - 30px);
-  z-index: 100;
-  margin-left: 15px;
-  margin-right: 15px;
-  height: 42px;
-  -webkit-border-radius: 5px;
-          border-radius: 5px;
-  outline: none;
-  background-color: #E4E4E4; }
-
 .carousel__imgcontainer {
   background: url(../img/bgrd1.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -453,9 +438,7 @@ h1 {
   .carousel__imgcontainer {
     height: 600px; }
   .header__nav_menu {
-    display: none; }
-  .header__mob_nav_menu {
-    display: inline-block; }
+    display: block; }
   .carousel__textContainer {
     top: 230px; }
   h1 {
@@ -476,7 +459,38 @@ h1 {
     margin-left: auto;
     margin-right: auto; }
   .contacts__text {
-    text-align: center; } }
+    text-align: center; }
+  .header__mobile_menu {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    float: right;
+    margin-top: 40px;
+    margin-right: 15px;
+    height: 44px;
+    width: 44px;
+    background: url("../img/mobile-menu.png") no-repeat 100% 100%;
+    -webkit-background-size: cover;
+            background-size: cover;
+    cursor: pointer; }
+  .header__nav_menu {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background: rgba(145, 148, 151, 0.95);
+    text-align: center;
+    display: none; }
+  .header__nav_menu-open {
+    display: block; }
+  .header__nav_elem {
+    border-bottom: 1px solid grey;
+    width: 100%; }
+  .header__nav_elem > a {
+    height: 44px;
+    padding: 0 15px;
+    line-height: 44px; }
+  .header__submenu {
+    position: static; } }
 
 @media screen and (max-width: 580px) {
   .carousel__imgcontainer {
