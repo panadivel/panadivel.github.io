@@ -5,6 +5,69 @@
 a:hover {
   text-decoration: none; }
 
+.contactForm {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 10000;
+  height: 350px;
+  width: 350px;
+  background-color: #FFF;
+  -webkit-border-radius: 10px 10px 0 0;
+          border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+  display: none; }
+
+.contactForm__header {
+  height: 40px;
+  line-height: 40px;
+  -webkit-border-radius: 10px 10px 0 0;
+          border-radius: 10px 10px 0 0;
+  background-color: #5BA0D0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 0 15px; }
+
+.contactForm__toggleBtn {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-top: 8px;
+  border: none;
+  background: url(../img/down_arrow.png) no-repeat #5BA0D0;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.contactForm__toggleBtn:hover, .contactForm__toggleBtn:active {
+  outline: none; }
+
+.contactForm__input {
+  margin: 25px 15px 0 15px;
+  width: 320px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid grey; }
+
+.contactForm__input:focus {
+  outline: none;
+  border-bottom: 1px solid #5BA0D0; }
+
+.contactForm__submitBtn {
+  width: 320px;
+  height: 45px;
+  margin: 40px 15px 0 15px;
+  background-color: #5BA0D0;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.contactForm__submitBtn:hover, .contactForm__submitBtn:active {
+  outline: none; }
+
 #contactBtn {
   position: fixed;
   bottom: 0;
@@ -500,7 +563,12 @@ h1 {
   h1 {
     font-size: 5em; }
   h3 {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+  .contactForm {
+    margin: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; } }
 
 @media screen and (max-width: 480px) {
   .col-xxs {

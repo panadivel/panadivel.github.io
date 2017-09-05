@@ -45,25 +45,7 @@
 	</div>
 	</div>
 
-
-	<!--menu for mobile devices -->
-<!-- 	<ul class="header__nav_menu">
-		<li class="header__nav_elem header__nav_elem-active"><a href="#">Home</a></li>
-		<li class="header__nav_elem"><a href="#">About</a>
-			<ul class="header__submenu">
-				<li class="header__nav_subelem"><a href="#">testiomonials</a></li>
-				<li class="header__nav_subelem"><a href="#">archives</a></li>
-				<li class="header__nav_subelem"><a href="#">faqs</a></li>
-			</ul>
-		</li>
-		<li class="header__nav_elem"><a href="#">Folio</a></li>
-		<li class="header__nav_elem"><a href="#">Services</a></li>
-		<li class="header__nav_elem"><a href="#">Blog</a></li>
-		<li class="header__nav_elem"><a href="#">Contacts</a></li>
-	</ul> -->
-
-
-
+	<!-- Bootstrap carousel -->
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
@@ -130,6 +112,17 @@
 	<button onclick="topFunction()" id="totopBtn" title="Go to top"></button>
 	<!-- Contact us button -->
 	<button onclcik="contactusFunction()" id="contactBtn" title="Contact us">Contact us!</button>
+	<!-- Contact us form -->
+	<form action="#" class="contactForm">
+		<div class="contactForm__header">
+			<span class="contactForm__h4">Contact us!</span>
+			<button class="contactForm__toggleBtn"></button>
+		</div>
+		<input type="text" name="Name" placeholder="click here and type your name" class="contactForm__input"><br>
+		<input type="text" name="Email" placeholder="click here and type your Email" class="contactForm__input"><br>
+		<textarea name="Note" rows="2" placeholder="We're not around but we still want to hear from you! Leave us a note:" class="contactForm__input"></textarea><br>
+		<input type="submit" value="Send" class="contactForm__submitBtn">
+	</form>
 	
 	
 	<!-- Advantages -->
