@@ -169,9 +169,10 @@ h1 {
 .header__nav_subelem a {
   display: block;
   height: 38px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
-  background-color: #27B8D1; }
+  background-color: #27B8D1;
+  white-space: nowrap; }
 
 .header__nav_subelem a:hover {
   color: #B3D6E9; }
