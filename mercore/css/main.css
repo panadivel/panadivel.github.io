@@ -8,6 +8,24 @@
 a:hover {
   text-decoration: none; }
 
+#totopBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: none;
+  background: url(../img/arrow_up.png) center center #4BB5C2;
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 100; }
+
+#totopBtn:hover, #totopBtn:active {
+  background-color: #404F5D;
+  outline: none; }
+
 .mainMenu-wrapper {
   height: 70px;
   background-color: #333333; }
@@ -38,6 +56,9 @@ a:hover {
   transition: .5s; }
   .mainMenu__link:hover {
     color: #4BB5C2; }
+
+.mainMenu__link-active {
+  color: #4BB5C2; }
 
 .search {
   display: -webkit-inline-box;
@@ -162,9 +183,11 @@ a:hover {
 
 .catMenu-wrapper {
   height: 54px;
+  width: 100%;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
-  background-color: #E6E6E6; }
+  background-color: #E6E6E6;
+  z-index: 1000; }
 
 .catMenu {
   display: -webkit-box;
@@ -211,7 +234,7 @@ a:hover {
   z-index: 10;
   width: 100%;
   padding: 20px 10px;
-  border: 1px solid red; }
+  background-color: #fff; }
 
 .catMenu__subElem a {
   padding: 5px; }
@@ -280,6 +303,9 @@ a:hover {
 
 .ourProducts-wrapper {
   background-color: #fff; }
+
+.prodHeader {
+  margin-top: 80px; }
 
 .prodCart {
   border: 2px solid #F4F4F4;
@@ -377,7 +403,20 @@ a:hover {
   background: #fff; }
 
 .offerCart__text {
-  color: #404F5D; }
+  color: #404F5D;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .offerCart__link {
   color: #4BB5C2;
@@ -440,7 +479,11 @@ a:hover {
   color: #4BB5C2; }
 
 .signUp {
-  margin-top: 14px; }
+  margin-top: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 .signUp__input {
   height: 40px;
@@ -498,8 +541,10 @@ footer {
   background: #333333; }
 
 .footer__content {
-  height: 50px;
-  line-height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 50px;
+  padding: 15px 0;
   color: #858585; }
   .footer__content a {
     color: #858585;
@@ -512,3 +557,25 @@ footer {
 #map {
   width: 100%;
   height: 400px; }
+
+@media screen and (max-width: 992px) {
+  .catMenu {
+    font-size: .8em; }
+  .offerCart {
+    min-height: 360px; }
+  .prodCart__addBtn {
+    height: 30px;
+    width: auto;
+    line-height: 30px;
+    font-size: .8em; } }
+
+@media screen and (max-width: 768px) {
+  .offerCart__wrapper {
+    margin-bottom: 30px; }
+  .news__image {
+    display: block;
+    margin: 0 auto 30px; } }
+
+@media screen and (max-width: 1200px) {
+  .signUp__btn {
+    width: 100px; } }

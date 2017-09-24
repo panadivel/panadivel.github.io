@@ -24,12 +24,15 @@
 </head>
 <body>
 	<header>
+		<!-- Go to top button -->
+		<button onclick="topFunction()" id="totopBtn" title="Go to top"></button>
+
 		<!-- Main Menu -->
 		<nav class="mainMenu-wrapper">
 			<div class="container">
 			<div class="mainMenu">
 				<ul class="mainMenu__list">
-					<li><a href="#" class="mainMenu__link">Home</a></li>
+					<li><a href="#" class="mainMenu__link mainMenu__link-active">Home</a></li>
 					<li><a href="#" class="mainMenu__link">About us</a></li>
 					<li><a href="#" class="mainMenu__link">Blog</a></li>
 					<li><a href="#" class="mainMenu__link">Contact</a></li>
@@ -73,7 +76,7 @@
 			<div class="row">
 				<ul class="catMenu">
 					<li class="catMenu__elem"><a href="#">Indoor cameras</a></li>
-					<li class="catMenu__elem"><a href="#">Outdoor cameras</a>
+					<li class="catMenu__elem"><a href="#">Outdoor cameras&#9661;</a>
 						<ul class="catMenu__subMenu">
 							<li class="catMenu__subElem"><a href="#">Bullet Cameras</a></li>
 							<li class="catMenu__subElem"><a href="#">Simulated Cameras</a></li>
@@ -132,7 +135,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="prodCart-wrapper col-xs-3">
+			<div class="prodCart-wrapper col-xs-12 col-sm-3">
 				<div class="prodCart">
 					<a href="#" class="prodCart__imgLink"><i class="icon-eye prodCart__icon"></i><img src="img/product_img20.jpg" alt="product" class="prodCart__img"></a>
 					<a href="#" class="prodCart__name">24 IR-LEDs CCTV Camera Home Security</a>
@@ -141,7 +144,7 @@
 				</div>
 			</div>
 			
-			<div class="prodCart-wrapper col-xs-3">
+			<div class="prodCart-wrapper col-xs-12 col-sm-3">
 				<div class="prodCart">
 					<a href="#" class="prodCart__imgLink"><i class="icon-eye prodCart__icon"></i><img src="img/product_img19.jpg" alt="product" class="prodCart__img"></a>
 					<a href="#" class="prodCart__name">HD Security Camera System with 8 Indoor- Outdoor Night Vision Security Cameras</a>
@@ -150,7 +153,7 @@
 				</div>
 			</div>
 
-			<div class="prodCart-wrapper col-xs-3">
+			<div class="prodCart-wrapper col-xs-12 col-sm-3">
 				<div class="prodCart">
 					<a href="#" class="prodCart__imgLink"><i class="icon-eye prodCart__icon"></i><img src="img/product_img18.jpg" alt="product" class="prodCart__img"></a>
 					<a href="#" class="prodCart__name">Winbest Sharp Edition Metal Detector by BARSKA</a>
@@ -159,7 +162,7 @@
 				</div>
 			</div>
 			
-			<div class="prodCart-wrapper col-xs-3">
+			<div class="prodCart-wrapper col-xs-12 col-sm-3">
 				<div class="prodCart">
 					<a href="#" class="prodCart__imgLink"><i class="icon-eye prodCart__icon"></i><img src="img/product_img17.jpg" alt="product" class="prodCart__img"></a>
 					<a href="#" class="prodCart__name">JPT3815W Wireless IP Pan-Tilt-Night Vision-Audio Surveillance Camera with Remote Monitoring</a>
@@ -179,7 +182,7 @@
 		</div>
 		<div class="container">
 		<div class="row">
-			<div class="offerCart__wrapper col-xs-6">
+			<div class="offerCart__wrapper col-xs-12 col-sm-6">
 				<div class="offerCart">
 					<div class="offerCart__text">
 						<h3 class="offerCart__header">Wireless Spotlight Cameras</h3>
@@ -191,7 +194,7 @@
 				</div>
 			</div>
 
-			<div class="offerCart__wrapper col-xs-6">
+			<div class="offerCart__wrapper col-xs-12 col-sm-6">
 					<div class="offerCart">
 						<div class="offerCart__text">
 							<h3 class="offerCart__header">Home Security Cameras</h3>
@@ -218,7 +221,7 @@
 
 		<div class="container">
 		<div class="row">
-			<div class="news-wrapper col-xs-4">
+			<div class="news-wrapper col-xs-12 col-sm-4">
 				<div class="news">
 					<a href="#" class="news__header">5 Most Common Mistakes New Managers Make</a>
 					<p class="news__text">Learn which five most common mistakes a new manager is likely to make, and how to avoid them. Mistake No.1 - Who's...</p>
@@ -226,7 +229,7 @@
 				<a href="#" class="news__imageLink"><img src="img/home_img01.jpg" alt="img01" class="news__image"></a>
 			</div>
 
-			<div class="news-wrapper col-xs-4">
+			<div class="news-wrapper col-xs-12 col-sm-4">
 				<div class="news">
 					<a href="#" class="news__header">Feeling Stressed? Try the One Joke per Day Therapy</a>
 					<p class="news__text">Presently, there are many sources from where one can get funny jokes, with the best one being the internet. Clearly,...</p>
@@ -234,7 +237,7 @@
 				<a href="#" class="news__imageLink"><img src="img/home_img02.jpg" alt="img01" class="news__image"></a>
 			</div>
 
-			<div class="news-wrapper col-xs-4">
+			<div class="news-wrapper col-xs-12 col-sm-4">
 				<div class="news">
 					<a href="#" class="news__header">Going Green Is So Much Simpler Than Most People Think</a>
 					<p class="news__text">Rumi, is the most popular Sufi poet in the world. His work is not only deep and intense, but also very ethereal. His...</p>
@@ -255,8 +258,8 @@
 	<div class="sign-wrapper">
 	<div class="container">
 	<div class="row">
-		<h3 class="signHeader col-xs-6"><i class="icon-mail sign__icon"></i> Sign Up Our Newsletter:</h3>
-		<form action="#" class="signUp col-xs-6">
+		<h3 class="signHeader col-xs-12 col-sm-6"><i class="icon-mail sign__icon"></i> Sign Up Our Newsletter:</h3>
+		<form action="#" class="signUp col-xs-12 col-sm-6">
 			<input type="text" class="signUp__input" placeholder="Enter your e-mail *">
 			<input type="submit" class="signUp__btn" value="OK">
 		</form>
@@ -269,7 +272,7 @@
 	<div class="footerMenu-wrapper">
 	<div class="container">
 	<div class="row">
-		<div class="categories col-xs-4">
+		<div class="categories col-xs-12 col-sm-4">
 			<h4 class="categories__header">Categories</h4>
 			<ul class="categories__list">
 				<li><a href="#" class="categories__link">Indoor Cameras</a></li>
@@ -281,7 +284,7 @@
 			</ul>
 		</div>
 
-		<div class="info col-xs-offset-4 col-xs-4">
+		<div class="info col-xs-12 col-sm-offset-4 col-sm-4">
 			<h4 class="info__header">Store information</h4>
 			<ul class="info__list">
 				<li><i class="icon-location info__icon"></i> 4578 Marmora Road, Glasgow D04 89GR</li>
