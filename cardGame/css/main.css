@@ -1,0 +1,113 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf); }
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: Krungthep;
+  src: url(../fonts/Krungthep.ttf);
+  font-weight: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: OpenSans-Bold, Arial;
+  text-decoration: none;
+  color: #fff; }
+
+body {
+  height: 100%;
+  background-color: #1C7430; }
+
+.mainMenu__img {
+  display: block;
+  margin: 94px auto 0px;
+  max-width: 100%; }
+
+.mainMenu__header {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  text-transform: uppercase; }
+
+.mainMenu__btn {
+  display: block;
+  width: 144px;
+  height: 42px;
+  background-color: #fff;
+  color: #1C7430;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 20px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  margin: 34px auto 0px; }
+
+.endGame__header {
+  text-transform: none; }
+
+.endGame__btn {
+  width: 128px;
+  padding: 10px 30px; }
+
+.gameContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.gameMenu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 54px;
+  font-size: 14px;
+  font-family: OpenSans-SemiBold; }
+
+.gameMenu__restartBtn {
+  font-family: OpenSans-SemiBold; }
+
+.gameMenu__points {
+  font-family: OpenSans-SemiBold; }
+
+#gameMenu__value {
+  font-family: Krungthep; }
+
+.Deck__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+  -webkit-flex-wrap: no-wrap;
+      -ms-flex-wrap: no-wrap;
+          flex-wrap: no-wrap; }
+
+.Deck__cell {
+  margin-right: 2%; }
+  .Deck__cell:last-child {
+    margin-right: 0; }
+
+.Deck__img {
+  max-width: 100%;
+  max-height: 314px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer; }
